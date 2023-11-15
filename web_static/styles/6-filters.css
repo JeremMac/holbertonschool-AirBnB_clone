@@ -35,6 +35,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 99;
 }
 
 .amenities {
@@ -44,6 +45,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     list-style: none;
+    z-index: 99;
 }
 
 .amenities h3, .locations h3 {
